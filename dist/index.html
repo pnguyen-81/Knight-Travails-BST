@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.bundle.js" defer></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="inputs" style="color: black; font-size:larger">
+            Starting Position (0 - 7):
+            <input type="text" class="coord1" required maxlength="1" minlength="1" pattern="[0-7]" style="width: 10px;">,
+            <input type="text" class="coord2" required maxlength="1" minlength="1" pattern="[0-7]" style="width: 10px;">
+            <br>
+            Target Position (0 - 7):
+            <input type="text" class="coord3" required maxlength="1" minlength="1" pattern="[0-7]" style="width: 10px;">,
+            <input type="text" class="coord4" required maxlength="1" minlength="1" pattern="[0-7]" style="width: 10px;">
+        </div>
+        <button class="submit">Submit</button><br><br>
+        <button class="reset">Reset Board</button><br><br>
+    </div>
+    <div class="gameboard"></div>
+</body>
+</html>

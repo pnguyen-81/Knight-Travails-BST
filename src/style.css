@@ -1,0 +1,54 @@
+html {
+    background-color: rgba(255, 151, 82, 0.329);
+}
+body {
+    color: rgb(255, 255, 255);
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.tile {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.row {
+    height: 100px;
+    position: relative;
+    display: flex;
+}
+
+.gameboard {
+    margin: auto;
+    align-self: center;
+    border: 1px solid black;
+    position: relative;
+    width: 800px;
+}
+
+.knight{
+    background-image: url('./portablejim-Chess-tile-Knight-2.svg');
+    position: absolute;
+    background-size: 80px;
+    left: 14px;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100px;
+}
+
+.active {
+    background-color: red;
+    box-shadow: 5px 5px 5px rgb(255, 92, 92, 0.7);
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:valid {
+    border: 2px solid black;
+  }
